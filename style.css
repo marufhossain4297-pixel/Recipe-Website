@@ -67,6 +67,8 @@ hr{
     font-size: 64px;
     font-weight: 600;
     padding-top: 32px;
+    letter-spacing: -4%;
+    width: 520px;
 }
 .banner-text p{
     font-size: 18px;
@@ -157,7 +159,7 @@ hr{
     color: white;
     align-items: center;
     position: relative;
-    left: 170px;
+    left: 250px;
     border: none;
     border-radius: 15px;
 }
