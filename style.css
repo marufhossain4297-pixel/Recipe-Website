@@ -40,25 +40,25 @@ hr{
 }
 
 /* banner styles stared */
-.banner{
-    margin-top: 40px;
-    width: 50%;
-    height: 640px;
-    background-color: #E7F9FD;
-    margin-left: 80px;
-    border-bottom-left-radius: 40px;
-    border-top-left-radius: 40px;
-    margin-bottom: 160px;
+.badge{
+    position: absolute;
+    top: 250px;
+    left: 650px;
 }
-.banner-image{
+.banner-section{
+    max-width: 1340px;
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 50px;
+    margin-bottom: 160px;
+    margin-left: 40px;
 }
-.banner-image img{
-    width: 100%;
-  height: 100%;
-  object-fit: cover;    /* image crop/fit হবে */
-  display: block;
+.banner-left{
+    width: 620px;
+    height: 640px;
+    background-color: #E7FAFE;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
 }
 .banner-text{
     padding-left: 50px;
@@ -79,9 +79,9 @@ hr{
     margin-bottom: 30px;
 }
 .top-button{
-    padding-top: 50px;
+    margin-top: 50px;
 }
-.top-button >button{
+.top-button{
     display: flex;
     background-color: white;
     border: none;
@@ -90,7 +90,7 @@ hr{
     width: 156px;
     height: 45px;
     align-items: center;
-    box-shadow: 10px 20px 40px #2940461e;
+    box-shadow: 10px 20px 40px #2940462a;
 }
 .top-button img{
     width: 24px;
@@ -105,10 +105,11 @@ hr{
     letter-spacing: -2%;
     padding-left: 15px;
 }
-.button-sector{
+.btn-sector{
     display: flex;
+    height: 60px;
 }
-.btn-2, .btn-3{
+.btn-1, .btn-2{
     display: flex;
     width: 139px;
     height: 40px;
@@ -117,15 +118,14 @@ hr{
     border: none;
     border-radius: 30px;
     margin-left: 50px;
-    margin-bottom: 104px;
 }
-.btn-2 img, .btn-3 img{
+.btn-1 img, .btn-2 img{
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 10px;
 }
-.btn-2 p, .btn-3 p{
+.btn-1 p, .btn-2 p{
     padding-top: 11px;
     padding-right: 16px;
     padding-bottom: 12px;
@@ -137,7 +137,9 @@ hr{
 .men-section{
     display: flex;
     margin-left: 50px;
+    margin-top: 70px;
     align-items: center;
+
 }
 .men-text{
     margin-left: 16px;
@@ -153,17 +155,17 @@ hr{
     font-weight: 500;
     color: #00000074;
 }
-.btn-4 > button{
+.btn-3 > button{
     display: flex;
     background-color: #000000;
     color: white;
     align-items: center;
     position: relative;
-    left: 250px;
+    left: 150px;
     border: none;
     border-radius: 15px;
 }
-.btn-4 > button p{
+.btn-3 > button p{
     padding-top: 21px;
     padding-bottom: 22px;
     padding-left: 37px;
@@ -171,6 +173,48 @@ hr{
     font-size: 14px;
     font-weight: 600;
 }
-.btn-4 img{
+.btn-3 img{
     padding-right: 36px;
+}
+
+/* Categories section */
+
+.categories-title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 1px solid red;
+    margin-bottom: 80px;
+}
+.categories-section h1{
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -4%;
+}
+.categories-section button{
+    width: 200px;
+    height: 60px;
+    background-color: #E7FAFE;
+    border: none;
+}
+.categories-card{
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 1px solid red;
+    display: flex;
+    gap: 40px;
+}
+.categories-card p{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    padding-top: 50px;
+}
+.categories-1{
+    width: 180px;
+    height: 202px;
+    background: linear-gradient(180deg, #FCFDFB 0%, #F3F4EF 100%);
+    text-align: center;
+    border-radius: 30px;
 }
