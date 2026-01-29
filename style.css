@@ -52,6 +52,7 @@ hr{
     margin-top: 50px;
     margin-bottom: 160px;
     margin-left: 40px;
+    justify-self: center;
 }
 .banner-left{
     width: 620px;
@@ -178,13 +179,14 @@ hr{
 }
 
 /* Categories section */
-
+.categories-section{
+    margin-bottom: 183px;
+}
 .categories-title{
     display: flex;
     justify-content: space-between;
     margin-left: 80px;
     margin-right: 80px;
-    border: 1px solid red;
     margin-bottom: 80px;
 }
 .categories-section h1{
@@ -192,16 +194,20 @@ hr{
     font-weight: 600;
     letter-spacing: -4%;
 }
-.categories-section button{
+.btn-5{
     width: 200px;
     height: 60px;
     background-color: #E7FAFE;
     border: none;
+    border-radius: 16px;
+}
+.btn-5 p{
+    font-size: 16px;
+    font-weight: 600;
 }
 .categories-card{
     margin-left: 80px;
     margin-right: 80px;
-    border: 1px solid red;
     display: flex;
     gap: 40px;
 }
@@ -214,7 +220,217 @@ hr{
 .categories-1{
     width: 180px;
     height: 202px;
-    background: linear-gradient(180deg, #FCFDFB 0%, #F3F4EF 100%);
     text-align: center;
     border-radius: 30px;
+    background: linear-gradient(180deg, #FCFDFB 0%, #F3F4EF 100%);
+}
+.categories-2{
+    width: 180px;
+    height: 202px;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(180.00deg, rgba(108, 198, 63, 0) 0%,rgba(108.14, 197.63, 63.4, 0.1) 100%);
+}
+.categories-3{
+    border-radius: 30px;
+    width: 180px;
+    height: 202px;
+    text-align: center;
+    background: linear-gradient(180.00deg, rgba(204, 38, 27, 0) 0%,rgba(204, 38, 27, 0.1) 100%);
+}
+.categories-4{
+    width: 180px;
+    height: 202px;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(180.00deg, rgba(240, 158, 0, 0) 0%,rgba(240.13, 158.48, 0, 0.1) 100%);
+}
+.categories-5{
+    width: 180px;
+    height: 202px;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.05) 100%);
+}
+.categories-6{
+    width: 180px;
+    height: 202px;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(180.00deg, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.05) 100%);
+}
+/* recipes card section */
+.recipes-card-section{
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    margin-bottom: 143px;
+    justify-self: center;
+}
+.recipes-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.recipes-card-section h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.recipes-card-section>p{
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 706px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 96px;
+}
+.heart-1, .heart-2, .heart-4, .heart-6, .heart-7, .heart-8 img{
+    filter: grayscale(100%);
+}
+.heart{
+    position: absolute;
+    left: 403.8px;
+    top: 1761px;
+}
+.heart-background{
+    background-color: white;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 400px;
+    top: 1750px;
+}
+.heart-1{
+    position: absolute;
+    left: 845px;
+    top: 1761px;
+}
+.heart-background-1{
+    background-color: white;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 840.8px;
+    top: 1750px;
+}
+.heart-2{
+    position: absolute;
+    left: 1280px;
+    top: 1761px;
+}
+.heart-background-2{
+    background-color: white;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 1275px;
+    top: 1750px;
+}
+.heart-3{
+    position: absolute;
+    left: 403.8px;
+    top: 2210px;
+}
+.heart-background-3{
+    background-color: white;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 400px;
+    top: 2200px;
+}
+.heart-4{
+    position: absolute;
+    left: 845px;
+    top: 2210px;
+}
+.heart-background-4{
+    background-color: white;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 840.8px;
+    top: 2200px;
+}
+.heart-5{
+    position: absolute;
+    left: 403.8px;
+    top: 2700px;
+}
+.heart-background-5{
+    background-color: white;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 400px;
+    top: 2690px;
+}
+.heart-6{
+    position: absolute;
+    left: 845px;
+    top: 2700px;
+}
+.heart-background-6{
+    background-color: white;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 840.8px;
+    top: 2690px;
+}
+.heart-7{
+    position: absolute;
+    left: 1280px;
+    top: 2700px;
+}
+.heart-background-7{
+    background-color: white;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 1275px;
+    top: 2690px;
+}
+.recipes-card-2, .recipes-card-3, .recipes-card-4, .recipes-card-5, .recipes-card-6, .recipes-card-7, .recipes-card-8{
+    max-width: 400px;
+    max-height: 417px;
+}
+.recipes-card-1, .recipes-card-2, .recipes-card-3, .recipes-card-4, .recipes-card-5, .recipes-card-6, .recipes-card-7, .recipes-card-8{
+    max-width: 400px;
+    border-radius: 30px;
+    background: linear-gradient(180.00deg, rgba(231, 249, 253, 0) 0%,rgba(231, 249, 253, 1) 100%);
+}
+.recipes-card-1-btn, .recipes-card-2-btn, .recipes-card-3-btn, .recipes-card-4-btn, .recipes-card-5-btn, .recipes-card-6-btn, .recipes-card-7-btn, .recipes-card-8-btn{
+    padding-top: 24px;
+    padding-bottom: 32px;
+    display: flex;
+    gap: 24px;
+    margin-left: 24px;
+}
+.recipes-card-1 h1, .recipes-card-2 h1, .recipes-card-3 h1, .recipes-card-4 h1, .recipes-card-5 h1, .recipes-card-6 h1, .recipes-card-7 h1, .recipes-card-8 h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.btn-4{
+    background-color: transparent;
+    display: flex;
+    border: none;
+    align-items: center;
+}
+.btn-4 p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 10px;
 }
