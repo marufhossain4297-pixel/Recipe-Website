@@ -434,3 +434,166 @@ hr{
     color: rgba(0, 0, 0, 0.6);
     padding-left: 10px;
 }
+
+/* chef section style */
+.chef-section{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 160px;
+}
+.chef-section-text{
+    align-self: center;
+}
+.chef-text h1{
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -4%;
+    margin-bottom: 24px;
+}
+.chef-text p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #0000008a;
+    margin-bottom: 72px;
+}
+.btn-6{
+    background-color: black;
+    color: white;
+    padding: 22px 53px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    border: none;
+    border-radius: 16px;
+}
+/* instagram section styles */
+.instagram-section{
+    text-align: center;
+    background: linear-gradient(180.00deg, rgba(231, 249, 253, 0) 0%,rgba(231, 249, 253, 1) 100%);
+}
+.instagram-section-text h1{
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+.instagram-section-text p{
+    line-height: 28px;
+    color: #0000008a;
+    margin-bottom: 80px;
+}
+.instagram-section-card-1{
+    margin-left: 80px;
+}
+.meta-data{
+    display: flex;
+    padding-top: 10px;
+    width: 290px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+.meta-data-logo h5{
+    font-size: 10.05px;
+    font-weight: 600;
+    padding-left: 7.73px;
+}
+.ellipsis{
+    padding-left: 160.4px;
+}
+.place{
+    font-size: 8.51px;
+    padding-bottom: 8.51px;
+}
+.img-1{
+    width: 24.75px;
+    height: 24.75px;
+    padding-left: 7.7px;
+    padding-bottom: 9px;
+}
+.instagram-section-card-footer{
+    background-color: white;
+    width: 290px;
+    margin-left: 80px;
+}
+.instagram-icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10.44px;
+    padding-bottom: 10.76px;
+}
+.instagram-icons{
+    width: 290px;
+    background-color: white;
+}
+.save-icons{
+    display: flex;
+}
+.ptofile img{
+    width: 13.15px;
+    height: 13.15px;
+    padding-left: 11.05px;
+}
+.ptofile p{
+    padding-bottom: 4px;
+}
+#love{
+    padding-left: 11px;
+}
+#bookmark{
+    padding-right: 11px;
+}
+.ptofile{
+    display: flex;
+}
+.profile-text p{
+    font-size: 10.05px;
+    padding-left: 11.6px;
+    text-align: left;
+}
+.date{
+    text-align: left;
+    font-size: 8.51px;
+    color: #0000008e;
+    padding-left: 11.6px;
+    padding-bottom: 10.05px;
+}
+.video-description{
+    padding-bottom: 10.05px;
+}
+.instagram-all-card{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.instagram-section-card-2{
+    max-width: 290px;
+}
+.instagram-section-card-1 >.meta-data, .instagram-section-card-2 >.meta-data, .instagram-section-card-3 >.meta-data, .instagram-section-card-4 >.meta-data{
+    margin-left: 0px;
+}
+.instagram-section-card-1 >.instagram-section-card-footer, .instagram-section-card-2 >.instagram-section-card-footer, .instagram-section-card-3 >.instagram-section-card-footer, .instagram-section-card-4 >.instagram-section-card-footer{
+    margin-left: 0px;
+}
+.instagram-section-card-1, .instagram-section-card-2, .instagram-section-card-3, .instagram-section-card-4{
+    width: 290px;
+}
+
+.btn-7{
+    margin-top: 81px;
+    background-color: black;
+    color: white;
+    padding: 22px 53px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+#instagram{
+    font-size: 22px;
+}
