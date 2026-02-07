@@ -1,0 +1,62 @@
+@media screen and (max-width:576px){
+    #hide{
+        display: none;
+    }
+    *{
+        /* border: 2px solid red; */
+    }
+    .categories-card{
+        display: grid;
+        grid-template-columns: 1fr 0px;
+        grid-template-rows: 1fr 180px;
+        max-width: 300px;
+        margin-left: 110px;
+    }
+    .recipes-card-section{
+        margin-right: 0;
+    }
+    .recipes-card-section > h1{
+        font-size: 40px;
+    }
+    .recipes-card{
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 100;
+    }
+    .heart{
+        display: none;
+        position: absolute;
+        left: 403.8px;
+        top: 1761px;
+    }
+    .heart-1{
+        display: none;
+    }
+    .heart-2{
+        display: none;
+    }
+    .heart-3{
+        display: none;
+    }
+    .heart-4{
+        display: none;
+    }
+    .heart-5{
+        display: none;
+    }
+    .heart-6{
+        display: none;
+    }
+    .heart-7{
+        display: none;
+    }
+    .heart-8{
+        display: none;
+    }
+    .heart-9{
+        display: none;
+    }
+    .heart-background, .heart-background-1, .heart-background-2, .heart-background-3, .heart-background-4, .heart-background-5, .heart-background-6, .heart-background-7, .heart-background-8, .heart-background-9{
+        display: none;
+    }
+}

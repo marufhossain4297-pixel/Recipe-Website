@@ -8,6 +8,9 @@
 .inter-font {
   font-family: "Inter", sans-serif;
 }
+button{
+    cursor: pointer;
+}
 /* banner styles */
 .navar{
     display: flex;
@@ -53,6 +56,7 @@ hr{
     margin-bottom: 160px;
     margin-left: 40px;
     justify-self: center;
+    max-width: 1280px;
 }
 .banner-left{
     width: 620px;
@@ -181,6 +185,8 @@ hr{
 /* Categories section */
 .categories-section{
     margin-bottom: 183px;
+    max-width: 1280px;
+    justify-self: center;
 }
 .categories-title{
     display: flex;
@@ -266,6 +272,7 @@ hr{
     text-align: center;
     margin-bottom: 143px;
     justify-self: center;
+    max-width: 1280px;
 }
 .recipes-card{
     display: flex;
@@ -441,7 +448,8 @@ hr{
     flex-direction: row-reverse;
     margin-left: 80px;
     margin-right: 80px;
-    margin-bottom: 160px;
+    margin-bottom: 160px;    
+    justify-self: center;
 }
 .chef-section-text{
     align-self: center;
@@ -472,6 +480,9 @@ hr{
 .instagram-section{
     text-align: center;
     background: linear-gradient(180.00deg, rgba(231, 249, 253, 0) 0%,rgba(231, 249, 253, 1) 100%);
+    margin-bottom: 180px;
+    width: 1440px;
+    justify-self: center;
 }
 .instagram-section-text h1{
     margin-top: 80px;
@@ -569,6 +580,7 @@ hr{
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .instagram-section-card-2{
     max-width: 290px;
@@ -596,4 +608,158 @@ hr{
 }
 #instagram{
     font-size: 22px;
+}
+/* recipes card styles */
+.recipes-cards-section{
+    margin-bottom: 160px;
+    max-width: 1280px;
+    justify-self: center;
+}
+.recipes-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.recipes-cards-1, .recipes-cards-2, .recipes-cards-3, .recipes-cards-4, .recipes-cards-5, .recipes-cards-6, .recipes-cards-7, .recipes-cards-8{
+    width: 290px;
+}
+.recipes-cards-1 img, .recipes-cards-2 img, .recipes-cards-3 img, .recipes-cards-4 img, .recipes-cards-5 img, .recipes-cards-6 img, .recipes-cards-7 img, .recipes-cards-8 img{
+    border-radius: 20px;
+}
+.recipes-cards-1 h1, .recipes-cards-2 h1, .recipes-cards-3 h1, .recipes-cards-4 h1, .recipes-cards-5 h1, .recipes-cards-6 h1, .recipes-cards-7 h1, .recipes-cards-8 h1{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+.recipes-cards-1-btn{
+    display: flex;
+    gap: 24px;
+}
+.recipes-card-text{
+    gap: 153px;
+    align-items: center;
+    display: flex;
+}
+.recipes-card-text h1{
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    width: 517px;
+    margin-bottom: 80px;
+}
+.recipes-card-text p{
+    line-height: 28px;
+    width: 620px;
+}
+
+
+/* footer section style */
+
+.subscribe-section{
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #E7FAFE;
+  border-radius: 80px;
+  max-width: 1280px;
+  margin: 0 auto;
+  /* justify-self: center; */
+}
+
+.footer-text{
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.footer-text h1{
+  font-size: 56px;
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+
+.footer-text p{
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 64px;
+}
+.email{
+    padding: 31px 265px 32px 31px;
+    border-radius: 24px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 480px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+.btn-8{
+    padding: 21px 47px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 24px;
+    position: relative;
+    left: -170px;
+    margin-right: 10px;
+}
+
+.footer-section{
+    margin-top: 160px;
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 1340px;
+}
+#footerp{
+    margin-top: 16px;
+    color: redrgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer-logo-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    align-items: center;
+}
+.footer-logo-section ul{
+    display: flex;
+    gap: 60px;
+}
+.footer-logo-section li{
+    list-style: none;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.icons-1{
+    position: relative;
+    left: 430px;
+}
+.footer-icons p{
+    text-align: center;
+}
+.footer-icons span{
+    color: rgba(255, 121, 103, 1);
+}
+.copy-right{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -2%;
+    color: #0000008a;
 }
